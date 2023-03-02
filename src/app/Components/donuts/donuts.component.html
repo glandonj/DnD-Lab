@@ -1,0 +1,6 @@
+<h1>Donut List</h1>
+<div *ngFor="let d of result.results; index as i">
+    <a routerLink="/donut/{{i+1}}">
+    <h3>{{ d.name }}</h3>
+    </a>
+</div>
